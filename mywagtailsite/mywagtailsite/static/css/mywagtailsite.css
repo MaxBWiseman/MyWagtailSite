@@ -1,5 +1,23 @@
+body {
+    background-color: #676767;
+    color: #FFFFFF;
+}
+/* Header styles */
 .site-header {
-    background-color: #aaa;
-    padding: 20px;
+    background-color: #333333;
+    padding: 5px;
     text-align: center;
 }
+
+.nav-link {
+    color: #FFFFFF;
+}
+
+.nav-link:hover {
+    color: #e67d20;
+}
+
+.navbar-nav {
+    --bs-nav-link-padding-x: 0.2rem!important;
+}
+/* End of header styles */
