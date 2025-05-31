@@ -21,3 +21,8 @@ body {
     --bs-nav-link-padding-x: 0.2rem!important;
 }
 /* End of header styles */
+/* UI/UX styles */
+.active {
+    color: #e67d20!important;
+}
+/* End of UI/UX styles */
