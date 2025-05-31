@@ -33,20 +33,28 @@ body {
 .btn-primary {
     background-color: #ff8700;
     border-color: #ff8700;
+    color: #000000;
 }
 
 .card {
     --bs-card-border-width: 0;
 }
 
+.card h3 {
+    color: #0078FF!important;
+}
+
 .card-header {
     background-color: #ff8700!important;
-    color: #FFFFFF!important;
 }
 
 .card:hover {
     box-shadow: 0 0 10px rgba(255, 135, 0, 0.5);
     transform: scale(1.02);
     transition: transform 0.2s, box-shadow 0.2s;
+}
+
+body h2 {
+    color: #FFFFFF!important;
 }
 /* End of UI/UX styles */
