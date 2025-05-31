@@ -14,7 +14,11 @@ body {
 }
 
 .nav-link:hover {
-    color: #e67d20;
+    color: #ff8700;
+}
+
+.navbar-toggler {
+    background-color: #ff8700;
 }
 
 .navbar-nav {
@@ -23,6 +27,26 @@ body {
 /* End of header styles */
 /* UI/UX styles */
 .active {
-    color: #e67d20!important;
+    color: #ff8700!important;
+}
+
+.btn-primary {
+    background-color: #ff8700;
+    border-color: #ff8700;
+}
+
+.card {
+    --bs-card-border-width: 0;
+}
+
+.card-header {
+    background-color: #ff8700!important;
+    color: #FFFFFF!important;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px rgba(255, 135, 0, 0.5);
+    transform: scale(1.02);
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 /* End of UI/UX styles */
